@@ -1,0 +1,15 @@
+﻿<Window x:Class="NeuroSyncApp.ChildGameSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Games" Height="450" Width="800">
+    <Grid Background="LightSkyBlue">
+        <StackPanel>
+            <TextBlock Text="Choose a Game" FontSize="24" FontWeight="Bold" Margin="20" HorizontalAlignment="Center"/>
+            <WrapPanel>
+                <!-- Add game options here as buttons or images inside boxes -->
+                <Button Content="Memory Game" Click="MemoryGame_Click"/>
+                <Button Content="Math Quiz" Click="MathQuiz_Click"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

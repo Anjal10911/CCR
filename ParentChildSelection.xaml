@@ -1,0 +1,10 @@
+﻿<Window x:Class="NeuroSyncApp.SelectionPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SelectionPage" Height="300" Width="400">
+    <Grid>
+        <Button Name="ParentButton" Content="Parent/Doctor" Click="Parent_Click" />
+        <Button Name="ChildButton" Content="Child" Click="Child_Click" />
+    </Grid>
+</Window>
+

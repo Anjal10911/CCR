@@ -1,0 +1,13 @@
+﻿<Window x:Class="NeuroSyncApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NeuroSync" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="Assets/NeuroSyncLogo.png" Width="200" Height="200"/>
+            <Button Content="Get Started" Width="200" Height="50" Click="GetStarted_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
+
+

@@ -1,0 +1,9 @@
+﻿<Window x:Class="NeuroSync.AccountDetailsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Account Details" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Account Details Page" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20"/>
+        <!-- Add content for Account Details here -->
+    </Grid>
+</Window>
